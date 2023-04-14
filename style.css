@@ -1,0 +1,98 @@
+
+/* Estilos para el contenedor del encabezado */
+.container {
+  max-width: 800px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Estilos para el título del encabezado */
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el subtítulo del encabezado */
+h2 {
+  font-size: 2rem;
+}
+
+/* Estilos para la sección de 3 columnas */
+.tres-columnas {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+/* Estilos para el título de la sección de 3 columnas */
+h3 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para las columnas */
+.columnas {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Estilos para las columnas individuales */
+.columna {
+  flex-basis: 30%;
+}
+
+/* Estilos para las imágenes dentro de las columnas */
+.columna img {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+header {
+			background-image: url("https://media.istockphoto.com/id/1174427120/es/foto/encabezado-del-sitio-web-y-banner-de-la-computadora-port%C3%A1til-con-escribir-las-manos-femeninas.jpg?s=170667a&w=0&k=20&c=E4BPElmkLTBZXZy6G7CDlORogDS7Trl2l6zE7VLP6ew");
+			background-size: cover;
+			text-align: center;
+			padding: 100px 0;
+			color: white;
+			font-size: 3em;
+			font-weight: bold;
+			display: flex;
+			flex-direction: column;
+		}
+
+		header h1 {
+			margin-bottom: 20px;
+		}
+
+		.container {
+			width: 90%;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		.col {
+			flex-basis: 30%;
+			margin: 10px;
+		}
+
+		.col img {
+			width: 100%;
+			height: auto;
+		}
+
+		.col h3 {
+			margin-top: 20px;
+			font-size: 1.5em;
+		}
+
+		@media (max-width: 600px) {
+			.col {
+				flex-basis: 45%;
+			}
+		}
